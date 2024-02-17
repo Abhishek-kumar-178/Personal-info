@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: brown;
+    padding-top: 50px; 
+}
+header {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: red;
+    padding: 10px 20px;
+}
+header ul {
+    list-style: none;
+}
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color:blue;
+    transition: all 0.3s ease;
+}
+header ul li a:hover {
+    color: greenyellow;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#home {
+    text-align: center;
+    padding: 150px 0;
+    background: url('https://i.imgur.com/ZxmsK7T.jpeg') no-repeat center center/cover;
+    color: orange;
+}
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+#home img {
+    border-radius: 50%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+#about {
+    text-align: center;
+    padding: 50px 0;
+    background-color: green;
+}
+#projects {
+    text-align: center;
+    padding: 50px 0;
+}
+#contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: gold;
+}
